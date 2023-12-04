@@ -63,6 +63,12 @@ func day1(){
 	fmt.Println(sum)
 }
 
+func day2(){
+	arr:= readFileAndSeperate("./test2.txt") 	
+	fmt.Println(arr)
+}
+
 func main(){
-	day1()
+/* 	day1() */
+	day2()
 }
